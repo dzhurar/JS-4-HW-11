@@ -35,8 +35,9 @@ startBtn.addEventListener('click', () =>{
         }
         if(countMs === 0){
             clearInterval(eventInterval);
-            document.getElementById('secondTInput').textContent = `Час вийшов!`;
+            document.getElementById('secondTInput').textContent = `Час вийшов!(типу подія¯\_(ヅ)_/¯)`;
             startBtn.classList.remove('animate');
+
         }
     }
     const eventInterval = setInterval(timeEvents, 10);

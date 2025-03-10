@@ -153,7 +153,7 @@ startBtn.addEventListener('click', function () {
     }
     if (countMs === 0) {
       clearInterval(eventInterval);
-      document.getElementById('secondTInput').textContent = "\u0427\u0430\u0441 \u0432\u0438\u0439\u0448\u043E\u0432!";
+      document.getElementById('secondTInput').textContent = "\u0427\u0430\u0441 \u0432\u0438\u0439\u0448\u043E\u0432!(\u0442\u0438\u043F\u0443 \u043F\u043E\u0434\u0456\u044F\xAF_(\u30C5)_/\xAF)";
       startBtn.classList.remove('animate');
     }
   }
